@@ -60,6 +60,8 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="menuButton" destination="oZ0-rx-8QI" id="198-Jb-0PE"/>
+                        <outlet property="profileButton" destination="PL0-KR-GCt" id="0hS-CA-MyA"/>
                         <outlet property="tableView" destination="Iym-CX-BWq" id="t7g-LE-8mp"/>
                     </connections>
                 </viewController>

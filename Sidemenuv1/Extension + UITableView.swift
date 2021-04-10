@@ -21,6 +21,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
         if indexPath.row == 1 || indexPath.row == 4{
             cell.accessoryType = .disclosureIndicator
         }
+        if names == languages || names == about{
+            cell.accessoryType = .none
+        }
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -30,12 +33,12 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
         
         tableView.deselectRow(at: indexPath, animated: true)
         if indexPath.row == 1{
-            navigationItem.setLeftBarButton(UIBarButtonItem(title: "< \(names[indexPath.row])", style: .done, target: self, action: #selector(myHome)), animated: true)
+            navigationItem.setLeftBarButton(UIBarButtonItem(title: "< Back", style: .done, target: self, action: #selector(myHome)), animated: true)
             names = languages
             tableView.reloadData()
             
         }else if indexPath.row == 4{
-            navigationItem.setLeftBarButton(UIBarButtonItem(title: "< \(names[indexPath.row])", style: .done, target: self, action: #selector(myHome)), animated: true)
+            navigationItem.setLeftBarButton(UIBarButtonItem(title: "< Back", style: .done, target: self, action: #selector(myHome)), animated: true)
             names = about
             tableView.reloadData()
         }
@@ -44,19 +47,12 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
         names = names1
         tableView.reloadData()
         sender.isEnabled = false
+        sender.title = "None"
         
     }
     func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
-        if names == languages{
-            if indexPath.row == 1{
-                return nil
-            }else if indexPath.row == 4{
-                return nil
-            }
-        }else if names == about{
-            if indexPath.row == 1{
-                return nil
-            }else if indexPath.row == 4{
+        if names == languages || names == about{
+            if indexPath.row == 1 || indexPath.row == 4{
                 return nil
             }
         }

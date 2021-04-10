@@ -10,6 +10,9 @@ import SideMenu
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var menuButton: UIBarButtonItem!
+    
+    @IBOutlet weak var profileButton: UIBarButtonItem!
     var sideMenu:SideMenuNavigationController?
     
     @IBOutlet weak var tableView: UITableView!
