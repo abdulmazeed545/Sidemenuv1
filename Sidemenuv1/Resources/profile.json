@@ -1,0 +1,89 @@
+{
+    "default":[
+        {
+            "title":"Smart Book Features"
+        },
+        {
+            "title":"Language"
+        },
+        {
+            "title":"My Statistics"
+        },
+        {
+            "title":"More Options"
+        },
+        {
+            "title":"About Semanoor"
+        }
+    ],
+    "login":[
+        {
+            "title":"Smart Book Features"
+        },
+        {
+            "title":"Manage Account"
+        },
+        {
+            "title":"Redeem"
+        },
+        {
+            "title":"Language"
+        },
+        {
+            "title":"My Statistics"
+        },
+        {
+            "title":"More Options"
+        },
+        {
+            "title":"About Semanoor"
+        },
+        {
+            "title":"Sign Out"
+        }
+    ],
+    "loginOptions":[
+        {
+            "title":"User Info"
+        },
+        {
+            "title":"User Features"
+        },
+        {
+            "title":"Show Recents"
+        },
+        {
+            "title":"My Orders"
+        },
+        {
+            "title":"Unregister this Device"
+        }
+    ],
+    "defaultOptions":[
+        {
+            "title":"Show Recents"
+        },
+        {
+            "title":"My Orders"
+        }
+    ],
+    "languages":[
+        {
+            "title":"English"
+        },
+        {
+            "title":"العربية"
+        }
+    ],
+    "about":[
+        {
+            "title":"Privacy Policy"
+        },
+        {
+            "title":"Terms and Conditions"
+        },
+        {
+            "title":"Share"
+        }
+    ]
+}

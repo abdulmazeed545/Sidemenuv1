@@ -1,0 +1,90 @@
+{
+    "bottom" : [
+        "Library",
+        "Mailbox",
+        "Connect",
+        "Resources"
+    ],
+    "top" : {
+        "Library" : [
+            "Content"
+        ],
+        "Mailbox" : [
+            "Imports",
+            "Exports"
+        ],
+        "Connect" : [
+            "Contacts"
+        ],
+        "Resources" : [
+            "Media"
+        ]
+    },
+    "data" : {
+        "Content" : [
+            {
+                "title" : "All",
+                "level" : 1
+            },
+            {
+                "title" : "Purchases",
+                "level" : 2
+            },
+            {
+                "title" : "Creations",
+                "level" : 2
+            },
+            {
+                "title" : "Imports",
+                "level" : 2
+            }
+        ],
+        "Imports" : [
+            "Import 1",
+            "Import 2",
+            "Import 3",
+            "Import 4",
+            "Import 5"
+        ],
+        "Exports" : [
+            "Export 1",
+            "Export 2",
+            "Export 3",
+            "Export 4",
+            "Export 5"
+        ],
+        "Contacts" : [
+            {
+                "name"  : "Kishore",
+                "email" : "kishore123@gmail.com"
+            },
+            {
+                "name"  : "Ravi",
+                "email" : "ravi123@gmail.com"
+            },
+            {
+                "name"  : "Prasad",
+                "email" : "prasad123@gmail.com"
+            },
+            {
+                "name"  : "Satish",
+                "email" : "satish123@gmail.com"
+            },
+            {
+                "name"  : "Tarun",
+                "email" : "tarun123@gmail.com"
+            }
+        ],
+        "Media": [
+            {
+                "name": "Images"
+            },
+            {
+                "name": "Audios"
+            },
+            {
+                "name": "Videos"
+            }
+        ]
+    }
+}
